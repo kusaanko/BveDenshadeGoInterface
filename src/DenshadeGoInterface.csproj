@@ -8,7 +8,7 @@
     <ProjectGuid>{7B46C49E-4431-47C5-BBF5-85C39B1B012B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mackoy.Bvets.DenshadeGoInterface</RootNamespace>
+    <RootNamespace>Kusaanko.Bvets.DenshadeGoInterface</RootNamespace>
     <AssemblyName>Kusaanko.DenshadeGoInterface</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

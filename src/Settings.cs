@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Xml.Serialization;
 
-namespace Mackoy.Bvets.DenshadeGoInterface
+namespace Kusaanko.Bvets.DenshadeGoInterface
 {
     public class Settings
     {

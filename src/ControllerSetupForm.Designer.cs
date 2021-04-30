@@ -1,5 +1,5 @@
 ﻿
-namespace Mackoy.Bvets.DenshadeGoInterface
+namespace Kusaanko.Bvets.DenshadeGoInterface
 {
     partial class ControllerSetupForm
     {

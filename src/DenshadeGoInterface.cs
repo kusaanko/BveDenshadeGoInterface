@@ -4,8 +4,9 @@ using System.IO.Ports;
 using System.Windows.Forms;
 using SlimDX.DirectInput;
 using System.Diagnostics;
+using Mackoy.Bvets;
 
-namespace Mackoy.Bvets.DenshadeGoInterface
+namespace Kusaanko.Bvets.DenshadeGoInterface
 {
     public class DenshadeGoInterface : Mackoy.Bvets.IInputDevice
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using SlimDX.DirectInput;
 
-namespace Mackoy.Bvets.DenshadeGoInterface
+namespace Kusaanko.Bvets.DenshadeGoInterface
 {
     public partial class ControllerSetupForm : Form
     {
