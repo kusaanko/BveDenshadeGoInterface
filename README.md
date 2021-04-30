@@ -15,6 +15,9 @@ Bve用のPS用電車でGO!コントローラー入力プラグイン
 [Releases](https://github.com/kusaanko/BveDenshadeGoInterface/releases)ページから最新版をダウンロードします。  
 Bve5.8以前なら`Kusaanko.DenshadeGoInput.dll`、Bve6.0以降なら`Kusaanko.DenshadeGoInput.NET4.dll`をダウンロードして下さい。  
 Bve5.8以前なら`C:\Program Files (x86)\mackoy\BveTs5\Input Devices`、Bve6.0以降なら`C:\Program Files\mackoy\BveTs6\Input Devices`を開き、ダウンロードしたdllファイルを配置します。  
+配置したdllファイルを右クリックしてプロパティを開きます。  
+セキュリティを許可して下さい。  
+![許可](pic/1.jpg)  
 Bveを起動し、設定画面を開き、入力デバイスを開きます。  
 BveDenshadeGoInterfaceにチェックを入れ、その他の不要な入力プラグインを無効化します。
 # JC-PS101U以外のコンバーターを使用する
