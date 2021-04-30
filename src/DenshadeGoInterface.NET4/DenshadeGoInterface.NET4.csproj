@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67A83604-732D-4087-A7BB-BE89A19FD536}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Mackoy.Bvets.DenshadeGoInterface</RootNamespace>
+    <AssemblyName>Kusaanko.DenshadeGoInterface.NET4</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Mackoy.IInputDevice">
+      <HintPath>..\Mackoy.IInputDevice.dll</HintPath>
+    </Reference>
+    <Reference Include="SlimDX">
+      <HintPath>.\SlimDX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\ConfigForm.cs">
+      <Link>ConfigForm.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\ConfigForm.Designer.cs">
+      <Link>ConfigForm.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\ControllerSetupForm.cs">
+      <Link>ControllerSetupForm.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\ControllerSetupForm.Designer.cs">
+      <Link>ControllerSetupForm.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\DenshadeGoInterface.cs">
+      <Link>DenshadeGoInterface.cs</Link>
+    </Compile>
+    <Compile Include="..\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Settings.cs">
+      <Link>Settings.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\ConfigForm.resx">
+      <Link>ConfigForm.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\ControllerSetupForm.resx">
+      <Link>ControllerSetupForm.resx</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
