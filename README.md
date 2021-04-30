@@ -21,4 +21,4 @@ Bveの設定画面を開き、入力デバイスを開きます。
 BveDenshadeGoInterfaceを選択してプロパティーをクリックして下さい。  
 コントローラーから使いたいコンバーター名を選択して、コントローラーのセットアップを押して、出てきた画面の指示に従って下さい。
 # ライセンス
-SlimDX - Copyright (c) 2007-2012 SlimDX Group [MIT License](https://github.com/SlimDX/slimdx/blob/master/License.txt)
+[SlimDX](https://github.com/SlimDX/slimdx) - Copyright (c) 2007-2012 SlimDX Group [MIT License](https://github.com/SlimDX/slimdx/blob/master/License.txt)
