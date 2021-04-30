@@ -15,4 +15,4 @@
 // アセンブリのバージョン情報は、以下の 4 つの値で構成されています:
 //
 //
-[assembly: AssemblyVersion("1.1.0")]
+[assembly: AssemblyVersion("1.1.0.0")]
