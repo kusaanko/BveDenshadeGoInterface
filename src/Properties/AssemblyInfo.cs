@@ -14,5 +14,9 @@
 
 // アセンブリのバージョン情報は、以下の 4 つの値で構成されています:
 //
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
 //
-[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyVersion("1.1.*")]
