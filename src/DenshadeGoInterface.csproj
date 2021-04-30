@@ -34,6 +34,12 @@
   <PropertyGroup>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Kusaanko.DenshadeGoInterface.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mackoy.IInputDevice">
       <HintPath>Mackoy.IInputDevice.dll</HintPath>
@@ -72,6 +78,9 @@
     <EmbeddedResource Include="ControllerSetupForm.resx">
       <DependentUpon>ControllerSetupForm.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kusaanko.DenshadeGoInterface.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

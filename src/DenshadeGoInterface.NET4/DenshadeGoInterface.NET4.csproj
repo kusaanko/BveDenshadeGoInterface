@@ -37,8 +37,15 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Kusaanko.DenshadeGoInterface.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Kusaanko.DenshadeGoInterface.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Mackoy.IInputDevice">
