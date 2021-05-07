@@ -3,3 +3,4 @@
 **/.vs/
 *.pfx
 pfx_key.txt
+*.user
