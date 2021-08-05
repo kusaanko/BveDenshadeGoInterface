@@ -1,3 +1,5 @@
+新しいBve用の入力プラグイン、[NumerousControllerInterface](https://github.com/kusaanko/BveNumerousControllerInterface)が公開されました。まだ不安定版ですがお試しください。
+
 # BveDenshadeGoInterface
 Bve用のPS用電車でGO!コントローラー入力プラグイン  
 このプラグインは次の商品に対応しています
